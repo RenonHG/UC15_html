@@ -1,3 +1,6 @@
+# UC15_html
+Aula de html da uc15 ti21
+
 <!DOCTYPE html>
 <!-- <html lang="pt-br">  -->
 
@@ -30,7 +33,7 @@
     <br> <!--quebra linha-->
     <meta charset="UTF-8"> - propriedade que define na tag o padrão de caracteres da pagina para UTF-8
     <html lang="pt-br"> - propriedade que retira a tardução automatica da pagina
-    <img src="./img/receita-cookie.png"> - apresenta uma imagem a partir do local ou link da mesma.
+    <img src="./img/receita-cookie.png" alt="aqui se escreve uma descrição detalhada da imagem, será exibida no inspecionar ou se a imagem der algum erro"> - apresenta uma imagem a partir do local ou link da mesma.
 
     <ul> - lista nao ordenada
         <li>Tópico 1</li> - topicos
@@ -40,6 +43,13 @@
         <li>topico 1</li> - topicos
     </ol>
 
-
     ! + TAB = preenche a síntaxe basica do html
+    <b> negrito porem em desuso e sem demonstrar importância
+    <strong> usada para deixar em negrito e demonstrar importância
+    <em> itálico para dar ênfase 
+    <i> itálico usado para referenciar 'palavras estrangeiras' / pensamentos de personagens
+    <u> underline na palavra
+    <s> strikeline na palavra
+    
+
 </body>
