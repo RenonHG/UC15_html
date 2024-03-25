@@ -50,6 +50,14 @@ Aula de html da uc15 ti21
     <i> itálico usado para referenciar 'palavras estrangeiras' / pensamentos de personagens
     <u> underline na palavra
     <s> strikeline na palavra
-    
 
+    Aula 4 
+    ctrl + espaço dentro das aspas: apresenta opções de auto completar
+    <a href="index.html">Voltar</a> Referência um link da própria pagina
+    OU TAMBÉM COM UM LINK ONLINE DESSA FORMA: 
+    <a href="https://google.com/search?q=lollapalooza" target="_blank">Saiba mais</a>
+
+    <hr> Faz uma linha horizontal na página (tipo uma divisória)
+    <img src="img/fresno.png" alt="imagem da banda Fresno" width="300" height="300" style="object-fit: cover;"> Object fit cover: ajusta imagem para não ficar distorcida
+    <body style="text-align: center;"> Alinha a página toda ao centro
 </body>
