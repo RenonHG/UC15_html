@@ -7,99 +7,183 @@
     <title>Locadora</title>
 </head>
 
+
+<style>
+    h2 {
+        /*Colocando o nome direto ele procura uma TAG*/
+        color:darkred
+    }
+
+    h3 {
+        /*Colocando o nome direto ele procura uma TAG*/
+        color: darkred;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .poster {
+        /*para localizar classes utilizamos o PONTO*/
+        height: 350px;
+        border: 3px solid darkred;
+    }
+
+    p {
+        font-size: 28px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    td{
+        width:300px;
+    }
+    .descricao{
+        width: 1200px;
+    }
+
+</style>
+
 <body style="text-align: center;">
-    <h1 style="color: darkred;">LOCADORA FILMES</h1>
-    <hr>
-    <img src="img/banner.png" alt="banner da página, assentos de cinema" width="1500" height="500"
-        style="border: 5px solid darkred;">
+    <table border="1">
+        <tbody>
+            <h1 style="color: darkred;">LOCADORA FILMES</h1>
+            
+            <img src="img/banner.png" alt="banner da página, assentos de cinema" width="1500" height="500"
+                style="border: 5px solid darkred;">
 
+            <marquee behavior="" direction="left">
+                <h2>Alugue já seu filme para sua sessão de pipoca!</h2>
+            </marquee>
+            
 
-    <marquee behavior="" direction="left">
-        <h2>Alugue já seu filme para sua sessão de pipoca!</h2>
-    </marquee>
-    <hr>
+            <tr>
+                <td>
+                    <a href="gente-grande.html">
+                        <h3>Gente Grande</h3>
+                        <img src="img/Gente grande.png" alt="Capa do filme: Gente Grande" class="poster">
+                    </a>
+                </td>
+                <td class="descricao">
+                    <P>
+                        <br>
+                        <strong>Descrição:</strong>
+                        Em Gente Grande, Lenny, Kurt, Eric, Marcus e Rob se conhecem desde pequenos. Passados trinta
+                        anos,
+                        os cinco
+                        amigos se reencontram para curtir um fim de semana juntos com as respectivas famílias, mas o
+                        feriado
+                        de 4 de
+                        Julho em uma casa no lago promete muito mais diversão do que apenas lembranças dos bons
+                        momentos.
+                </td>
+            </tr>
+            </P>
 
-    <P>
-        <a href="gente-grande.html">
-            <h3>Gente Grande</h3>
-            <img src="img/Gente grande.png" alt="Capa do filme: Gente Grande" width="250"
-                style="border: 1px solid darkred;">
-        </a>
+            <tr>
+                <td>
+                    <a href="valerian.html">
+                        <h3>Valerian e a Cidade dos Mil Planetas</h3>
+                        <img src="img/valerian.png" alt="Capa do filme: Valerian e a Cidade dos Mil Planetas"
+                            class="poster">
+                    </a>
+                </td>
 
-        <br>
-        <strong>Descrição:</strong>
-        Em Gente Grande, Lenny, Kurt, Eric, Marcus e Rob se conhecem desde pequenos. Passados trinta anos, os cinco
-        amigos se reencontram para curtir um fim de semana juntos com as respectivas famílias, mas o feriado de 4 de
-        Julho em uma casa no lago promete muito mais diversão do que apenas lembranças dos bons momentos.
-    </P>
+                <br>
 
-    <hr>
-    <P>
-        <a href="valerian.html">
-            <h3>Valerian e a Cidade dos Mil Planetas</h3>
-            <img src="img/valerian.png" alt="Capa do filme: Valerian e a Cidade dos Mil Planetas" width="250"
-                style="border: 1px solid darkred;">
-        </a>
+                <td class="descricao">
+                    <P>
+                        <strong>Descrição:</strong>
+                        Século XXVIII. Valérian é um agente viajante do tempo e do espaço que luta ao lado da parceira
+                        Laureline, por
+                        quem é
+                        apaixonado, em defesa da Terra e seus planetas aliados, continuamente atacados por bandidos
+                        intergaláticos.
+                    </P>
+                </td>
+            </tr>
+            
 
-        <br>
-        <strong>Descrição:</strong>
-        Século XXVIII. Valérian é um agente viajante do tempo e do espaço que luta ao lado da parceira Laureline, por
-        quem é
-        apaixonado, em defesa da Terra e seus planetas aliados, continuamente atacados por bandidos intergaláticos.
-    </P>
-    <hr>
-    <P>
-        <a href="cidade-de-deus.html">
-            <h3>Cidade de Deus</h3>
-            <img src="img/cidade-de-deus.png" alt="Capa do filme: Cidade de Deus" width="250"
-                style="border: 1px solid darkred;">
-        </a>
+            <tr>
+                <td>
+                    <a href="cidade-de-deus.html">
+                        <h3>Cidade de Deus</h3>
 
-        <br>
-        <strong>Descrição:</strong>
-        Dadinho (Douglas Silva) e Buscapé são grandes amigos, que cresceram juntos imersos em um universo de muita
-        violência. Na Cidade de Deus, favela carioca conhecida por ser um dos locais mais violentos do Rio de Janeiro,
-        os
-        caminhos das duas crianças divergem, quando um se esforça para se tornar um fotógrafo e o outro o chefe do
-        tráfico.
-    </P>
-    <hr>
+                        <img src="img/cidade-de-deus.png" alt="Capa do filme: Cidade de Deus" class="poster">
+                    </a>
+                </td>
 
-    <P>
-        <a href="10-coisas.html">
-            <h3>10 Coisas que Eu Odeio em Você</h3>
-            <img src="img/10-coisas.png" alt="Capa do filme: 10 Coisas que Eu Odeio em Você " width="250"
-                style="border: 1px solid darkred;">
-        </a>
-        <br>
-        <strong>Descrição:</strong>
-        A situação está tensa na casa dos Stratford. Bianca (Larisa Oleynik) não vê a hora de arranjar um namorado, mas
-        seu
-        pai (Larry Miller) não permite que ela saia com garotos. Após muita insistência, o pai toma uma resolução:
-        Bianca
-        pode namorar, desde que sua irmã, Katharina (Julia Stiles), namore também.
-        O Rei Arthur (Graham Chapman) está à procura de cavaleiros que possam acompanhá-lo em uma importante jornada: a
-        busca do Santo Graal.
-        <hr>
+                <td class="descricao">
+                    <P>
+                        <br>
+                        <strong>Descrição:</strong>
+                        Dadinho (Douglas Silva) e Buscapé são grandes amigos, que cresceram juntos imersos em um
+                        universo de
+                        muita
+                        violência. Na Cidade de Deus, favela carioca conhecida por ser um dos locais mais violentos do
+                        Rio de
+                        Janeiro,
+                        os
+                        caminhos das duas crianças divergem, quando um se esforça para se tornar um fotógrafo e o outro
+                        o chefe
+                        do
+                        tráfico.
+                    </P>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <a href="10-coisas.html">
+                        <h3>10 Coisas que Eu Odeio em Você</h3>
+                        <img src="img/10-coisas.png" alt="Capa do filme: 10 Coisas que Eu Odeio em Você "
+                            class="poster">
+                    </a>
+                </td>
+                <br>
 
-    <P>
-        <a href="monty-python.html">
-            <h3>Monty Python em Busca do Cálice Sagrado</h3>
-            <img src="img/monty-python.png" alt="Capa do filme: Monty Python em Busca do Cálice Sagrado" width="250"
-                style="border: 1px solid darkred;">
-        </a>
+                <td class="descricao">
+                    <P>
+                        <strong>Descrição:</strong>
+                        A situação está tensa na casa dos Stratford. Bianca (Larisa Oleynik) não vê a hora de arranjar
+                        um
+                        namorado, mas
+                        seu
+                        pai (Larry Miller) não permite que ela saia com garotos. Após muita insistência, o pai toma uma
+                        resolução:
+                        Bianca
+                        pode namorar, desde que sua irmã, Katharina (Julia Stiles), namore também.
+                        O Rei Arthur (Graham Chapman) está à procura de cavaleiros que possam acompanhá-lo em uma
+                        importante
+                        jornada: a
+                        busca do Santo Graal.
+                        
+                </td>
+            </tr>
+            <tr>
+                <td>
 
-        <br>
-        <strong>Descrição:</strong>
-        O Rei Arthur (Graham Chapman) está à procura de cavaleiros que possam acompanhá-lo em uma importante jornada: a
-        busca do Santo Graal.
-        <hr>
+                    <a href="monty-python.html">
+                        <h3>Monty Python em Busca do Cálice Sagrado</h3>
+                        <img src="img/monty-python.png" alt="Capa do filme: Monty Python em Busca do Cálice Sagrado"
+                            class="poster">
+                    </a>
+                </td>
 
-        <marquee behavior="alternate" direction="left" style="color: darkred;">
-            <strong>Desenvolvido por ©Renonzera</strong>
-        </marquee>
+                <br>
 
+                <td class="descricao">
+                    <P>
+                        <strong>Descrição:</strong>
+                        O Rei Arthur (Graham Chapman) está à procura de cavaleiros que possam acompanhá-lo em uma
+                        importante
+                        jornada: a
+                        busca do Santo Graal.
+                </td>
+            </tr>
 
+        </tbody>
+    </table>
 
 </body>
 
