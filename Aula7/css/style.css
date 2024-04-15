@@ -1,0 +1,82 @@
+/*Página de estilização*/
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+
+.logo {
+    width: 100px;
+}
+
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+
+.menu ul li a {
+    /*border: tamanho do traçado, tipo, cor*/
+    border: 1px solid rgb(255, 255, 255);
+
+    /*border-radius: tamanho do arredondamento*/
+    border-radius: 10px;
+
+    /*padding: cima ou baixo, laterais*/
+    padding: 5px 20px;
+
+    /*Para deixar pintar o fundo do botão*/
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+    /*Cor da fonte*/
+    text-decoration: none;
+    /*Remove o sublinhado do link do: a href*/
+
+    font-family: "Croissant One", serif;
+}
+.menu .selecionado {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: black;
+    
+    
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.home main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.home h1 {
+    font-family: "Croissant One", serif;
+    font-size: 150px;
+    color: #acd4ac;
+}
+
+.home {
+    /* background-image: url(../img/background.jpg); */
+
+    background: linear-gradient(rgba(44, 40, 40, 0.514), rgba(48,42,42,0.5)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
