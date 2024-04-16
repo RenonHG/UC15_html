@@ -11,18 +11,22 @@
     width: 100px;
 }
 
-
 .menu ul {
     list-style: none;
 }
 
 .menu ul li {
     display: inline-block;
-
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 .menu ul li a {
+    
     /*border: tamanho do traçado, tipo, cor*/
     border: 1px solid rgb(255, 255, 255);
 
@@ -42,21 +46,14 @@
 
     font-family: "Croissant One", serif;
 }
-.menu .selecionado {
+.menu .selecionado, ul li a:hover { /*hover faz animação de passar o mouse em cima*/
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     color: black;
     
-    
-    
 }
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 
-}
 
 .home main {
     display: flex;
@@ -73,10 +70,43 @@ header {
 }
 
 .home {
-    /* background-image: url(../img/background.jpg); */
-
     background: linear-gradient(rgba(44, 40, 40, 0.514), rgba(48,42,42,0.5)), url(../img/background.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+/*--------------------------------------------------------------*/
+/* página sobre */
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-family: "Croissant One", serif;
+    padding-left: 30vh;
+}
+.titulo h1 span{
+    font-size: 100px;
+    color: black;
+}
+.titulo h1{
+    font-weight: normal;
+    font-size: 75px;
+    color: #2a382a;
+}
+
+.texto p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10vw;
+    margin-right: 32vw;
+    text-align: justify;
+}
+.sobre{
+    background: linear-gradient(rgba(44, 40, 40, 0.514), rgba(48,42,42,0.5)), url(../img/background-sobre.jpg);
+    background-size: cover;
+    background-position-x: 56vw;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
