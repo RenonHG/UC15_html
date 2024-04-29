@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- inputs e formularios -->
+    <!-- O que são input? O que é um formulário -->
+
+    <div class="box">
+        <form action="form.html" class="formularioDados">
+            <h1>PREENCHA SEUS DADOS</h1>
+            <br>
+            <input type="text" placeholder="Digite seu nome" name="nome">
+            <br><br>
+
+            <input type="number" placeholder="telefone" maxlength="11" name="telefone">
+            <br><br>
+
+            <input type="email" placeholder="email" name="email">
+            <br><br>
+            <label>Data de Nascimento:</label><br>
+
+            <input type="date" placeholder="data de nascimento" name="nascimento">
+            <br><br>
+
+            <input type="number" placeholder="idade" maxlength="3" name="idade">
+            <br><br>
+
+            <label>Informe seu gênero:</label>
+            <br>
+
+            <input type="radio" value="Masculino" name="genero" id="M">
+            <label for="M">Masculino</label>
+            <br>
+            <input type="radio" value="Feminino"name="genero" id="F">
+            <label for="F" >Feminino</label>
+            <br>
+            <input type="radio"  name="genero" id="outro">
+            <label for="outro">Prefiro não informar</label>
+            <br><br>
+
+            <label>Deixe sua mensagem:</label>
+            <br>
+            <textarea name="texto"cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit">
+    </div>
+</body>
+
+</html>

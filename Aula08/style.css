@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"]
+{
+    width: 100%;
+    height: 25px;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: whitesmoke;
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: right;
+}
+
+
+.box{
+    display: flex;
+    width: 500px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+form{
+    
+    width: 500px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
