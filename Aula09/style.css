@@ -7,7 +7,7 @@
 body {
     display: flex;
     height: 100vh;
-    background: url(../img/James_and_Bob.jpg);
+    background: url(img/James_and_Bob.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
