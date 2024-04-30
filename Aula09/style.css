@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid green; */
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: url(../img/James_and_Bob.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 0 40px;
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: left;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    margin: 0 20px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+p {
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+
+}
+
+.buttons a {
+    display: flex;
+    background-color: rgb(248, 246, 248);
+    height: 50px;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons img {
+    height: 50px;
+    width: 50px;
+}
+
+input[type="submit"] {
+    
+    font-weight: bold;
+    background-color: rgb(52, 96, 179);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 0;
+    border: none;
+    width: 75%;
+    margin: 0 auto; 
+    
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    color: black;
+}
